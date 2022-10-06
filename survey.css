@@ -1,0 +1,154 @@
+@media screen and (max-width: 600px) {
+    
+* {
+
+    padding: 0;
+
+    margin: 0 auto;
+
+}
+}
+
+body {
+
+    background-image: url(pimg.jpg.jpg);
+    background-size: cover;
+    max-width: 100%;
+    height: auto;
+
+}
+
+
+form {
+
+    color: #ffffff;
+
+    width: 80%;
+
+    margin: 30px auto;
+
+    padding: 20px;
+
+    background-color: orange;
+
+}
+
+h2 {
+
+    text-align: center;
+
+    padding: 10px;
+
+    font-size: 50px;
+
+    color: teal;
+
+}
+
+form .PersonalInformation {
+
+    padding: 55px 55px 0 55px;
+
+    font-size: 20px;
+
+}
+
+form .PersonalInformation input {
+
+    width: 274px;
+
+    height: 15px;
+
+    padding: 10px;
+
+}
+
+textarea {
+
+    border: 1.5px solid teal;
+    max-width: 100%;
+    height: auto;
+
+}
+
+input {
+
+    border: 1.5px solid teal;
+
+}
+
+.ED {
+
+    display: flex;
+
+    gap: 305px;
+
+}
+
+::placeholder {
+
+    font-size: 1rem;
+
+}
+
+.PersonalInformation .Shift {
+
+    margin-left: 50px;
+
+}
+
+.radio {
+
+    padding: 20px 55px;
+
+    font-size: 25px;
+
+}
+
+input[type="radio"] {
+
+    width: 25px;
+
+    height: 20px;
+
+    column-rule: teal;
+
+}
+
+span {
+
+    font-size: 1rem;
+
+}
+
+.btn {
+
+    padding: 35px 0 50px 0;
+
+    width: 90%;
+
+    display: flex;
+
+    justify-content: center;
+
+    margin: auto;
+
+}
+
+form button {
+
+    padding: 15px;
+
+    font-size: 18px;
+
+    width: 10em;
+
+    background: teal;
+
+    color: #ffffff;
+
+    border: 1px solid teal;
+
+}
+
+
